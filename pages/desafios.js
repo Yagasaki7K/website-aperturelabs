@@ -1,6 +1,7 @@
 import React from 'react'
 import Discord from '../src/components/Discord'
 import Header from '../src/components/header'
+import Link from 'next/link'
 
 const desafios = () => {
     return (
@@ -57,7 +58,7 @@ const desafios = () => {
                     <hr />
 
                     <ul>
-                        <li><a href="https://github.com/ApertureLaboratory/aperture-challenge01" target="_blank">Challenge #01 : Menu I/O</a></li>
+                        <li><Link to="https://github.com/ApertureLaboratory/aperture-challenge01" target="_blank">Challenge #01 : Menu I/O</Link></li>
                     </ul>
 
                     <hr />

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function Discord() {
@@ -11,19 +12,19 @@ const Header = () => {
             <nav>
                 <ul>
                     <li>
-                        <a href="/">
+                        <Link href="/">
                             <img src="/images/logo.png" alt="Logo da Rocketseat"/>
-                        </a>
+                        </Link>
                     </li>
 
                     <div className="separator"></div>
 
-                    <li><a href="/">INÍCIO</a></li>
-                    <li><a href="/sobrenos">SOBRE NÓS</a></li>
-                    <li><a href="/patrocinadores">PATROCINADORES</a></li>
-                    <li><a href="/desafios">DESAFIOS</a></li>
-                    <li><a href="/asi">ASI</a></li>
-                    <li><a href="https://yagasaki.vercel.app/blog" target="_blank">BLOG</a></li>
+                    <li><Link href="/">INÍCIO</Link></li>
+                    <li><Link href="/sobrenos">SOBRE NÓS</Link></li>
+                    <li><Link href="/patrocinadores">PATROCINADORES</Link></li>
+                    <li><Link href="/desafios">DESAFIOS</Link></li>
+                    <li><Link href="/asi">ASI</Link></li>
+                    <li><Link href="https://yagasaki.vercel.app/blog" target="_blank">BLOG</Link></li>
                 </ul>
             </nav>
 

@@ -1,10 +1,11 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Techs = () => {
     return (
         <section id="tecnologia">
             <div className="content">
-            <img src="/images/trophy.png" alt="Troféu com logo da Rocketseat"/>
+            <Image src="/images/trophy.png" alt="Troféu com logo da Rocketseat"/>
             <div className="container">
                 <h2>
                 As mesmas tecnologias utilizadas por empresas como:
