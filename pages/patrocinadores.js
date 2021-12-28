@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from '../src/components/header'
-import Techs from '../src/components/Techs'
+import Header from '../src/components/Header.js'
+import Techs from '../src/components/Techs.js'
 
 const patrocinadores = () => {
     return (

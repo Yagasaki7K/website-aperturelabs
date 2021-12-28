@@ -1,5 +1,5 @@
-import Image from 'next/image'
 import React from 'react'
+import Image from 'next/image'
 
 function DiscordBtn() {
     window.open("https://discord.gg/nyTRNSV", "_blank")

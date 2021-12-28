@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from '../src/components/header'
-import BestTechs from '../src/components/BestTechs'
 import Link from 'next/link'
+import Header from '../src/components/Header.js'
+import BestTechs from '../src/components/BestTechs.js'
 
 const sobrenos = () => {
     return (
@@ -29,7 +29,7 @@ const sobrenos = () => {
                     <p>Isso de fato acontece, mas atualmente por debaixo dos panos, já que não são todos os membros interessados em
                         participar, se esforçar e estar garantindo a experiência de estar em um projeto. Essa equipe reservada, 
                         nós os apelidamos de Aperture Science Innovators (ASI).
-                        Você pode saber mais sobre eles através <Link href="/asi">deste link de acesso</Link>, o grupo é livre para qualquer 
+                        Você pode saber mais sobre eles através <Link href="/asi" passHref>deste link de acesso</Link>, o grupo é livre para qualquer 
                         um que tenha ideias, tenha força de vontade e queira ajudar a sociedade com ideias inovadoras.
                     </p>
                 </div>

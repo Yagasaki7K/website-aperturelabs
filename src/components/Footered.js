@@ -1,5 +1,5 @@
-import Link from 'next/link'
 import React from 'react'
+import Link from 'next/link'
 
 const Footered = () => {
     return (
@@ -8,9 +8,9 @@ const Footered = () => {
                 <div className="container">
                     <p><b>Aperture Laboratories - 2022 - Todos os direitos reservados</b></p>
                     <ul>
-                        <li><Link to="https://discord.com/guidelines" target="_blank">Diretrizes da comunidade</Link></li>
-                        <li><Link to="https://discord.com/terms" target="_blank">Termos de serviço</Link></li>
-                        <li><Link to="https://discord.com/privacy" target="_blank">Política de privacidade</Link></li>
+                        <li><Link href="https://discord.com/guidelines" target="_blank" passHref><a>Diretrizes da comunidade</a></Link></li>
+                        <li><Link href="https://discord.com/terms" target="_blank" passHref><a>Termos de serviço</a></Link></li>
+                        <li><Link href="https://discord.com/privacy" target="_blank" passHref><a>Política de privacidade</a></Link></li>
                     </ul>
                 </div>
             </div>

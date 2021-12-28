@@ -1,10 +1,10 @@
-import Header from '../src/components/Header'
-import BestTechs from '../src/components/BestTechs'
-import Techs from '../src/components/Techs'
-import Discord from '../src/components/Discord'
-import Partners from '../src/components/Partners'
-import Contact from '../src/components/Contact'
-import Footered from '../src/components/Footered'
+import Header from '../src/components/Header.js'
+import BestTechs from '../src/components/BestTechs.js'
+import Techs from '../src/components/Techs.js'
+import Discord from '../src/components/Discord.js'
+import Partners from '../src/components/Partners.js'
+import Contact from '../src/components/Contact.js'
+import Footered from '../src/components/Footered.js'
 
 function Home() {
     return (

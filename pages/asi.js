@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from '../src/components/header'
-import Contact from '../src/components/Contact'
+import Header from '../src/components/Header.js'
+import Contact from '../src/components/Contact.js'
 
 const asi = () => {
     return (
