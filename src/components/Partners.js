@@ -8,8 +8,8 @@ const Partners = () => {
                     <h2>Parceiros</h2>
                     <p>Conheça nossos parceiros e encontre as melhores oportunidades</p>
                     <div>
-                    <button><Image src="images/partners.png" alt="Parceiros" layout='fill'/> <span>Website {`>`}</span></button>
-                    <button><Image src="images/partners.png" alt="Parceiros" layout='fill'/> <span>Website {`>`}</span></button>
+                    <button><Image src="images/partners.png" alt="Parceiros" /> <span>Website {`>`}</span></button>
+                    <button><Image src="images/partners.png" alt="Parceiros" /> <span>Website {`>`}</span></button>
                     </div>
                 </div>
             </div>

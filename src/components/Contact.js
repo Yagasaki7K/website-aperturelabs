@@ -6,11 +6,11 @@ const Contact = () => {
         <section id="contact">
             <div className="content">
                 <div className="container">
-                <Image className="img_lateral filtered-side" src="/images/techs-1.svg" alt="Logo do Electron, Graphql e JavaScript" layout='fill'/>
+                <Image className="img_lateral filtered-side" src="/images/techs-1.svg" alt="Logo do Electron, Graphql e JavaScript"/>
                 <div>
-                    <Image src="/images/yoda.svg" alt="Yoda" className="yodaBrightness" layout='fill'/>
+                    <Image src="/images/yoda.svg" alt="Yoda" className="yodaBrightness"/>
                 </div>
-                <Image className="img_lateral filtered-side" src="/images/techs-2.svg" alt="Logo do Node, React e Git" layout='fill'/>
+                <Image className="img_lateral filtered-side" src="/images/techs-2.svg" alt="Logo do Node, React e Git"/>
                 </div>
             </div>
         </section>

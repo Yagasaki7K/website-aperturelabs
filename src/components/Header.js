@@ -14,7 +14,7 @@ const Header = () => {
                     <li>
                         <Link href="/">
                             <a>
-                                <Image src="/images/logo.png" alt="Logo da Aperture Laboratories" layout='fill'/>
+                                <Image src="/images/logo.png" alt="Logo da Aperture Laboratories"/>
                             </a>
                         </Link>
                     </li>

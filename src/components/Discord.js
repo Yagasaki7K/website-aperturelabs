@@ -17,7 +17,7 @@ const Discord = () => {
                 </p>
                 <button onClick={DiscordBtn}>Acessar comunidade</button>
             </div>
-            <Image src="/images/discord-content.svg" alt="Logo do Discord" layout='fill'/>
+            <Image src="/images/discord-content.svg" alt="Logo do Discord"/>
             </div>
         </section>
     )
