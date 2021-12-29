@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
-import Discord from '../src/components/Discord.js'
-import Header from '../src/components/Header.js'
+import Discord from '../components/Discord.js'
+import Header from '../components/Header.js'
 
 const desafios = () => {
     return (
