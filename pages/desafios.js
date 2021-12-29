@@ -37,7 +37,7 @@ const desafios = () => {
                     </p>
 
                     <p>
-                        Então não perca seu tempo. Entre em nossa comunidade <a href="#" target="_blank">através desse link</a>, vá na aba de desafios e
+                        Então não perca seu tempo. Entre em nossa comunidade <a href="#" target="_blank" rel="noreferrer">através desse link</a>, vá na aba de desafios e
                         escolha um que te favorece, passe uma semana tentando desenvolver por conta, peça ajuda na comunidade e depois compartilhe com a
                         gente qual foi sua experiência. Isso se já não estivermos com um desafio acontecendo, aí tu pode pegar o desafio e se juntar a nós.
                     </p>
@@ -56,7 +56,7 @@ const desafios = () => {
                     <hr />
 
                     <ul>
-                        <li><a href="https://github.com/ApertureLaboratory/aperture-challenge01" target="_blank">Challenge #01 : Menu I/O</a></li>
+                        <li><a href="https://github.com/ApertureLaboratory/aperture-challenge01" target="_blank" rel="noreferrer">Challenge #01 : Menu I/O</a></li>
                     </ul>
 
                     <hr />
