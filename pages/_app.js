@@ -10,6 +10,7 @@ function MyApp({ Component, pageProps }) {
                 <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
                 <meta name="description" content="Comunidade brasileira de programação" />
                 <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+                <link rel="icon" type="image/png" href="/images/logo.png"/>
             </Head>
             <Component {...pageProps} />
         </>
