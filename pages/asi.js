@@ -1,4 +1,3 @@
-import React from 'react'
 import Header from '../src/components/Header.js'
 import Contact from '../src/components/Contact.js'
 

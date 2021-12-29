@@ -1,7 +1,5 @@
-import React from 'react'
-import Link from 'next/link'
-import Discord from '../src/components/Discord'
 import Header from '../src/components/Header'
+import Discord from '../src/components/Discord'
 
 const desafios = () => {
     return (
@@ -58,7 +56,7 @@ const desafios = () => {
                     <hr />
 
                     <ul>
-                        <li><Link to="https://github.com/ApertureLaboratory/aperture-challenge01" target="_blank">Challenge #01 : Menu I/O</Link></li>
+                        <li><a href="https://github.com/ApertureLaboratory/aperture-challenge01" target="_blank">Challenge #01 : Menu I/O</a></li>
                     </ul>
 
                     <hr />
