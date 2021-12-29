@@ -11,7 +11,7 @@ const BestTechs = () => {
                     </p>
                     <button>Quero embarcar nesse foguete</button>
                 </div>
-            <img src="/images/developer.svg" alt="Melhores tecnologias"/>
+            <img src="/images/developer.svg" alt="Melhores tecnologias" width={300}/>
             </div>
         </section>
     )
