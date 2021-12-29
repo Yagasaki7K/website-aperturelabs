@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 
 function Discord() {
     window.open("https://discord.gg/nyTRNSV", "_blank")
@@ -14,7 +13,7 @@ const Header = () => {
                     <li>
                         <Link href="/">
                             <a>
-                                <Image src="/images/logo.png" alt="Logo da Aperture Laboratories"/>
+                                <img src="/images/logo.png" alt="Logo da Aperture Laboratories"/>
                             </a>
                         </Link>
                     </li>

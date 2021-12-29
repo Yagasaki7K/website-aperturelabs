@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 const BestTechs = () => {
     return (
         <section id="description">
@@ -13,7 +11,7 @@ const BestTechs = () => {
                     </p>
                     <button>Quero embarcar nesse foguete</button>
                 </div>
-            <Image src="/images/developer.svg" alt="Melhores tecnologias" width={350} height={350} />
+            <img src="/images/developer.svg" alt="Melhores tecnologias"/>
             </div>
         </section>
     )

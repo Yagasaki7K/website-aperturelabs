@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 function DiscordBtn() {
     window.open("https://discord.gg/nyTRNSV", "_blank")
 }
@@ -17,7 +15,7 @@ const Discord = () => {
                 </p>
                 <button onClick={DiscordBtn}>Acessar comunidade</button>
             </div>
-            <Image src="/images/discord-content.svg" alt="Logo do Discord"/>
+            <img src="/images/discord-content.svg" alt="Logo do Discord"/>
             </div>
         </section>
     )

@@ -1,10 +1,8 @@
-import Image from 'next/image'
-
 const Techs = () => {
     return (
         <section id="tecnologia">
             <div className="content">
-                <Image src="/images/trophy.png" alt="Troféu com logo da Rocketseat"/>
+                <img src="/images/trophy.png" alt="Troféu com logo da Rocketseat"/>
                 <div className="container">
                     <h2>
                     As mesmas tecnologias utilizadas por empresas como:
