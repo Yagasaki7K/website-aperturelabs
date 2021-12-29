@@ -1,4 +1,3 @@
-import React from 'react'
 import Image from 'next/image'
 
 const BestTechs = () => {
@@ -14,7 +13,7 @@ const BestTechs = () => {
                     </p>
                     <button>Quero embarcar nesse foguete</button>
                 </div>
-            <Image src="/images/developer.svg" alt="Melhores tecnologias" width="350px" />
+            <Image src="/images/developer.svg" alt="Melhores tecnologias" width={350} height={350} />
             </div>
         </section>
     )

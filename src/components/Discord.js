@@ -1,4 +1,3 @@
-import React from 'react'
 import Image from 'next/image'
 
 function DiscordBtn() {
@@ -18,7 +17,7 @@ const Discord = () => {
                 </p>
                 <button onClick={DiscordBtn}>Acessar comunidade</button>
             </div>
-            <Image src="/images/discord-content.svg" alt="Logo do Discord"/>
+            <Image src="/images/discord-content.svg" alt="Logo do Discord" layout='fill'/>
             </div>
         </section>
     )
