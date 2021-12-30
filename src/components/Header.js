@@ -25,7 +25,7 @@ const Header = () => {
                     <li><Link href="/patrocinadores"><a>PATROCINADORES</a></Link></li>
                     <li><Link href="/desafios"><a>DESAFIOS</a></Link></li>
                     <li><Link href="/asi"><a>ASI</a></Link></li>
-                    <li><a href='https://yagasaki.vercel.app/blog' target="_blank">BLOG</a></li>
+                    <li><a href='https://yagasaki.vercel.app/blog' target="_blank" rel="noreferrer">BLOG</a></li>
                 </ul>
             </nav>
 
